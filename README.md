@@ -41,3 +41,4 @@ To enable 3D simulation, the original model was modified in the following ways:
 
 These modifications allowed the original 2D model to be extended to include the third dimension, enabling a more accurate simulation of three-body motion.
 The resulting plot shows the trajectories of the three bodies in 3D space over time. As expected, the trajectories are complex and difficult to predict due to the chaotic nature of the three-body problem. However, the stacked 2D simulation method proved to be a successful approximation of 3D motion.
+![three_body_animation](https://user-images.githubusercontent.com/3180138/231890630-269bba20-bae5-45ef-b6a4-522dca8dc0a9.gif)
