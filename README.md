@@ -12,7 +12,7 @@ To enhance our understanding of three-body motion in a three-dimensional space, 
 
 This method is advantageous as it simplifies the problem of simulating three-body motion in 3D, which is notoriously difficult to solve analytically. By using numerical simulations, we can approximate the motion of the bodies with a high degree of accuracy and gain insights into the complex and often chaotic nature of three-body interactions.
 
-In our study, we implemented the proposed method in Python using the scipy library for numerical integration and the matplotlib library for visualization. The resulting simulations provide a detailed and dynamic representation of three-body motion in 3D space, which can be used to study a wide range of physical phenomena, from astrophysics to molecular dynamics.
+In the study, I implemented the proposed method in Python using the scipy library for numerical integration and the matplotlib library for visualization. The resulting simulations provide a detailed and dynamic representation of three-body motion in 3D space, which can be used to study a wide range of physical phenomena, from astrophysics to molecular dynamics.
 
 The significance of this method lies in its potential to advance our understanding of the behavior of celestial bodies, which can have practical applications in space exploration and satellite technology. The proposed method is computationally efficient and allows for the simulation of complex systems with greater accuracy than existing methods.
 
