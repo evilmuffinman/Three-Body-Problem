@@ -26,6 +26,8 @@ The model is implemented as follows:
     6. Solve the differential equations using odeint for the second 2D simulation.
     7. Stack the results of the two simulations to create a 3D representation.
     8. Create a 3D plot of the trajectories of the bodies using the matplotlib library.
+    ![image](https://user-images.githubusercontent.com/3180138/231890216-213ae756-b4a2-4a04-805a-ad36032ec2b3.png)
+
 
 The implementation of the model using Python and the SciPy library allows for efficient and accurate simulation of the three-body problem in 3D. The use of stacked 2D simulations to approximate 3D motion provides a novel approach to solving this difficult problem.
 To enable 3D simulation, the original model was modified in the following ways:
@@ -33,5 +35,9 @@ To enable 3D simulation, the original model was modified in the following ways:
     2. Two separate 2D simulations were performed, with the initial conditions for the second simulation being identical to those of the first, except for the z-coordinates and z-velocities.
     3. The results of the two 2D simulations were stacked together to create a 3D representation of the motion.
     4. A 3D plot was generated using the Matplotlib library to visualize the trajectories of the bodies.
+    ![image](https://user-images.githubusercontent.com/3180138/231890314-311d14fa-b19a-49c4-9a0c-e2f14b5c900e.png)
+    ![image](https://user-images.githubusercontent.com/3180138/231890344-f254f8d6-dbce-4099-9594-c71db7957568.png)
+    ![image](https://user-images.githubusercontent.com/3180138/231890397-24d04ab3-7ec6-471f-acb0-6a4b5d4ea37f.png)
+
 These modifications allowed the original 2D model to be extended to include the third dimension, enabling a more accurate simulation of three-body motion.
 The resulting plot shows the trajectories of the three bodies in 3D space over time. As expected, the trajectories are complex and difficult to predict due to the chaotic nature of the three-body problem. However, the stacked 2D simulation method proved to be a successful approximation of 3D motion.
