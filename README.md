@@ -14,7 +14,7 @@ In our study, we implemented the proposed method in Python using the scipy libra
 
 The significance of this method lies in its potential to advance our understanding of the behavior of celestial bodies, which can have practical applications in space exploration and satellite technology. The proposed method is computationally efficient and allows for the simulation of complex systems with greater accuracy than existing methods.
 
-In conclusion, the proposed method of using stacked 2D simulations to approximate 3D motion was successful in simulating the three-body problem in 3D space. The resulting trajectories demonstrate the complex nature of the problem, and the potential of the method to be used in a variety of scientific fields. Additionally, incorporating an animation of the trajectories can provide a visual representation of the three-body motion, which can help scientists better understand the complex interactions between celestial bodies.
+The proposed method of using stacked 2D simulations to approximate 3D motion was successful in simulating the three-body problem in 3D space. The resulting trajectories demonstrate the complex nature of the problem, and the potential of the method to be used in a variety of scientific fields. Additionally, incorporating an animation of the trajectories can provide a visual representation of the three-body motion, which can help scientists better understand the complex interactions between celestial bodies.
 
 The proposed model for simulating three-body motion in 3D using stacked 2D simulations is implemented in Python using the SciPy library. The SciPy library provides a powerful suite of tools for scientific computing, including numerical integration functions that are used in the simulation.
 The model is implemented as follows:
@@ -35,6 +35,7 @@ To enable 3D simulation, the original model was modified in the following ways:
     2. Two separate 2D simulations were performed, with the initial conditions for the second simulation being identical to those of the first, except for the z-coordinates and z-velocities.
     3. The results of the two 2D simulations were stacked together to create a 3D representation of the motion.
     4. A 3D plot was generated using the Matplotlib library to visualize the trajectories of the bodies.
+    
     ![image](https://user-images.githubusercontent.com/3180138/231890314-311d14fa-b19a-49c4-9a0c-e2f14b5c900e.png)
     ![image](https://user-images.githubusercontent.com/3180138/231890344-f254f8d6-dbce-4099-9594-c71db7957568.png)
     ![image](https://user-images.githubusercontent.com/3180138/231890397-24d04ab3-7ec6-471f-acb0-6a4b5d4ea37f.png)
