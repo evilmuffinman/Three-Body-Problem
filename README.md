@@ -1,3 +1,5 @@
+To install all the dependencies at once, you can run the following command: pip install numpy scipy matplotlib
+
 # Three-Body-Problem
 A method of using stacked 2D simulations to approximate 3D motion.
 The three-body problem is a fundamental problem in physics and astronomy that involves predicting the motion of three celestial bodies under the influence of their mutual gravitational attraction. The problem has been of great significance in the development of modern physics and has been a subject of study for centuries.
